@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tables</title>
+</head>
+<style>
+    body{
+        background-color: rgb(218, 221, 216);
+    }
+</style>
+<body>
+        <h1>Nested Tables</h1>
+     <table border="2">
+        <tbody><tr>
+            <th>Header column 1</th>
+            <th>Header column 2</th>
+            <th>Header column 3</th>
+            <th>Header column 4</th>
+      </tr>
+        <tr>
+            <td>Row 2-item 1</td>
+            <td>Row 2-item 2</td>
+           <th><br>Row 2:Nested Table 1  <br><br>
+                
+                <table border="2">                
+                    <tbody><tr>
+                        <th>Row 1 Header</th>
+                        <td>item</td>
+                    </tr>
+                    <tr>
+                        <th>Row 2 Header</th>
+                        <td>item</td>
+                    </tr>
+                    <tr>
+                        <th>Row 3 Header</th>
+                        <td>item</td>
+                    </tr>
+                </tbody></table>
+             </th> 
+        
+            <td>Row 2 -item 4 <br>
+                A second line
+            </td>
+        
+            </tr><tr>
+                <th>Row 3: Nested Table 2    <br><br>
+                <table border="2">
+                    <tbody><tr>
+                        <th>Row 1 Header</th>
+                        <td>item</td>
+                    </tr>
+                    <tr>
+                        <th>Row 2 Header</th>
+                        <td>item</td>
+                    </tr>
+                </tbody></table>
+               </th>
+               <td>Row 3-item 2</td>
+               <td>Row 3-item 3</td>
+               
+
+        </tr>
+              <tr>
+                <td>Row 4-item 1</td>
+                <td>Row 4-item 2</td>
+                <td>Row 4-item 3</td>
+              </tr>
+          
+               <tr>
+                <td colspan="5">Row 5- Last row of outer table</td>
+               </tr>
+     
+     
+     
+     
+        </tbody></table>   
+     <br><br><br><br><br>
+
+        <h1>TABLE 2</h1>
+     <table border="" style="width: 100%;">
+            <caption><b>Marksheet Of 2025</b></caption>
+                 <tbody><tr>
+                     <th rowspan="4">S.NO.</th>
+                     <th rowspan="4">Name</th>
+                     <th colspan="13">Subject</th>
+                     <th rowspan="4">Total</th>
+                     </tr><tr>
+                         <th colspan="4">Science</th>
+                         <th colspan="4">Social</th>
+                         <th colspan="5">Computer</th>
+                     </tr>
+                     <tr>
+                         <th colspan="13">Marks</th>
+                     </tr>
+                 
+                 <tr>
+                     
+                     <th colspan="2">Internal</th>
+                     <th colspan="2">Final</th>
+                     <th colspan="2">Internal</th>
+                     <th colspan="2">Final</th>
+                     <th colspan="2">Internal</th>
+                     <th colspan="3">Final</th>
+                     
+                 </tr>
+              
+               <tr>
+                 <td>1.</td>
+                 <td>Bikash</td>
+                 <td colspan="2">10</td>
+                 <td colspan="2">12</td>
+                 <td colspan="2">43</td>
+                 <td colspan="2">43</td>
+                 <td colspan="2">43</td>
+                 <td colspan="2">43</td>
+                 <td colspan="2">50</td>
+             </tr>
+              
+               <tr>
+                 <td>2.</td>
+                 <td>Bikash</td>
+                 <td colspan="2">10</td>
+                 <td colspan="2">12</td>
+                 <td colspan="2">43</td>
+                 <td colspan="2">43</td>
+                 <td colspan="2">43</td>
+                 <td colspan="2">43</td>
+                 <td colspan="2">50</td>
+             </tr>
+             
+          <tr>
+           <td>3.</td>
+           <td>Avinash</td>
+           <td colspan="2">10</td>
+           <td colspan="2">12</td>
+           <td colspan="2">43</td>
+           <td colspan="2">43</td>
+           <td colspan="2">43</td>
+           <td colspan="2">43</td>
+           <td colspan="2">50</td>
+       </tr>
+        <tr> 
+      <td>4.</td>
+       <td>Ram</td>
+       <td colspan="2">10</td>
+       <td colspan="2">12</td>
+       <td colspan="2">43</td>
+       <td colspan="2">43</td>
+       <td colspan="2">43</td>
+       <td colspan="2">43</td>
+       <td colspan="2">50</td>
+   </tr>
+            
+ <tr>
+   <td>5.</td>
+   <td>Abdul</td>
+   <td colspan="2">10</td>
+   <td colspan="2">12</td>
+   <td colspan="2">43</td>
+   <td colspan="2">43</td>
+   <td colspan="2">43</td>
+   <td colspan="2">43</td>
+   <td colspan="2">50</td>
+ </tr>
+            
+            <tr>
+             <th colspan="20">Total</th>
+            </tr>
+            
+                 </tbody></table>
+         
+                 <br><br<br><br><br><br>  
+
+<h1>TABLE 3</h1>
+
+ 
+<pre><big>
+    <table border="" 4="">
+        <tbody><tr>
+        <th colspan="8">Pizza Shop 2.0</th>
+        </tr>
+        <tr>
+          <td>Name</td>
+          <td><input type="text" name="user" size="40"></td>
+        </tr>
+        <tr>
+            <td>Pizza Topping</td>
+            <td> <input type="radio" name="flavour" value="Supreme">Supreme
+<input type="radio" name="flavour" value="Vegetarian">Vegetarian
+<input type="radio" name="flavour" value="Hawaiian">Hawaiian
+             </td>
+        </tr>
+
+       <tr>
+        <td>Pizza Sauce</td>
+        <td>
+<select value="select">
+            <option value="tomato">Tomato</option>
+            <option value="Genger">Genger</option>
+            <option value="cheesse">Cheesse</option>on
+            </select>
+        </td>
+       </tr>
+
+       <tr>
+        <td>Optional Extras</td>
+        <td><input type="checkbox" name="pizza" value="Extra cheesse">Extra Cheese  <input type="checkbox" name="pizza" value="gulten free">Gulten Free Base </td>
+       </tr>
+
+        <tr>
+            <td colspan="2"> Delievery Instruction:
+<textarea name="Location" cols="70" rows="8"></textarea>  
+            </td>
+        </tr>
+      <tr>
+<td colspan="8"> <input type="submit" name="for user" value="Send my order"></td>
+    </tr>
+    
+    
+    
+    
+    </tbody></table>
+
+
+</big>
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+    
+    
+    
+    
+    
+    
+        
+    </body></html>
